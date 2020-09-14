@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Rock Paper and Scissors</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="game">
+    <div class="score">
+        <div class="player-score">
+            <h2>Player</h2>
+            <p>0</p>
+        </div>
+        <div class="computer-score">
+            <h2>Computer</h2>
+            <p>0</p>
+        </div>
+    </div>
+    <div class="introduction">
+        <h1>Rock Paper and Scissors</h1>
+        <div class="lang">
+            <label for="input">Player Name</label>
+            <input id="input" type="text" placeholder="Player name">
+            <button>Let's Play</button>
+            <!--            <label for="choose-language">Languages</label>-->
+            <!--            <select name="Language" id="choose-language">-->
+            <!--                <option value="english">English</option>-->
+            <!--                <option id="uzbek" value="uzbek">Uzbek</option>-->
+            <!--            </select>-->
+        </div>
+    </div>
+    <div class="match fadeOut">
+        <h2 class="winner">Choose an option</h2>
+        <div class="hands">
+            <img src="assets/rock.png" alt="rock" class="player-hand">
+            <img src="assets/rock.png" alt="rock" class="computer-hand">
+        </div>
+        <div class="options">
+            <button class="rock">rock</button>
+            <button class="paper">paper</button>
+            <button class="scissors">scissors</button>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
